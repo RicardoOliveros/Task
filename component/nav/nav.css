@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Acá van los estilos del header */
+.header{
+    box-sizing: border-box;
+    background-color: #000035;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;  
+    width: 100%;
+}
+.title{
+    align-self: center;
+    color: #bbff00;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: #bbff00;;
+}
+.nav li{
+    padding: 20px;
+    
+}
+
+a:hover{
+    color: white;
+}
+
+@media screen and (max-width:585px){
+    .title{
+        font-size: 26px;
+    }
+ }
